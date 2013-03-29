@@ -10,8 +10,10 @@ Cocos2d-x で DeployGate を使用するためのヘルパーです。
 
 1.組み込み方法
 使用するために必要なファイルは4つで、srcフォルダ以下に入れています。
-配置場所も同じようなフォルダ構成にしていますが、javaのパッケージ名
+配置場所も同じようなフォルダ構成にしていますが、Javaのパッケージ名
 については組み込む先のプロジェクトに合わせて変更してください。
+Javaパッケージ名を変更した場合は、DeployGateHelperJNI.cpp:11行目の
+設定も変更してください。
 
  /Classes/DeployGateHelper.cpp
  /Classes/DeployGateHelper.h
